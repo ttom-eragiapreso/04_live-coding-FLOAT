@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 80px;
+  background-color: orange;
+  padding: 25px;
+  text-align: center;
+}
+
+h2 {
+  color: red;
+  margin: 10px 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+ul li {
+  display: inline;
+  margin-right: 10px;
+  text-transform: capitalize;
+}
+
+ul li a{
+  color: white;
+}
+
+ul li a:hover{
+  color: black;
+}
+
+.menu {
+  display: inline-block;
+  /* padding-top: 45px; */
+}
+
+.debug{
+  background-color: rgba(255, 0, 0, 0.25);
+  border: 1px solid black;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+
+.box {
+  width: 70px;
+  height: 20px;
+  background-color: red;
+  float: left;
+}
+
+
+
+.float-right{
+  float: right;
+}
+
+.jumbo {
+  height: 400px;
+  background-color: cornflowerblue;
+}
+
+.row {
+  margin: 50px 0;
+}
+
+.col {
+  width: calc(100% / 3);
+  float: left;
+  text-align: center;
+  padding: 10px 30px;
+}
+
+.col:nth-child(2){
+  margin-top: 10px;
+}
+
+.box-col {
+  background-color: darkblue;
+  width: 150px;
+  height: 150px;
+  /* text-align: center; */
+  display: inline-block;
+}
+
+.long-text {
+  text-align: justify;
+}
+
+footer {
+  height: 80px;
+  background-color: darkgoldenrod;
+  text-align: center;
+  padding-top: 15px;
+  margin-top: 40px;
+}
